@@ -45,18 +45,12 @@ Import all files here (ideally)
 summary()
 ```
 
+Skim will return information in tables based on the type of data
+- for character columns, the max & min represent the character LENGTH (not an actual max/min)
+
 ```{r}
 skim()
 ```
-
-```{r}
-introduce()
-```
-
-```{r}
-create_report()
-```
-
 
 What are our "identifying columns?"
 - Are those columns unique? Are they misspelled?
