@@ -1,0 +1,114 @@
+---
+title: "data_analysis"
+format: html
+editor: visual
+---
+
+# Notebook Goals
+
+What do you want to accomplish in this notebook? aka: What question are we answering?
+
+How will it help you obtain project goals?
+
+What's your hypothesis?
+
+# Before you begin
+
+- Update libraries (Tools --> check for package updates)
+- Do your research
+  - Is this dataset the best at answering your question? 
+  - Does this project have news value?
+  - Should you talk to someone about this data before you dive in?
+  - How does this relate to previous articles?
+  
+# Library
+
+```{r}
+library(tidyverse) # for data manipulation
+library(janitor) # for cleaning
+library(lubridate) # for working with dates
+library(readxl) # for working with Excel files
+library(skimr) # for initially understanding data -- > skim function
+library(DataExplorer) # for initially understanding data -- > create_report, introduce functions
+library(ggplot2) # for some basic visualizations
+```
+
+# Read in
+
+Import all files here (ideally)
+
+[ ]  Save a clean copy of your data that you won’t ever touch. NOT IN YOUR EMAIL. Save it on the drive and/or on your computer.
+
+# Understand Data
+
+```{r}
+summary()
+```
+
+```{r}
+skim()
+```
+
+```{r}
+introduce()
+```
+
+```{r}
+create_report()
+```
+
+
+What are our "identifying columns?"
+- Are those columns unique? Are they misspelled?
+- Do the column types for each column make sense?
+
+Do we have null values? How do we want to handle null values?
+
+Are there any immediate outliers off the bat? Max and minimum value for each column make sense?
+
+What's the "universe" of the data? AKA what does each row represent? What geography does it cover?
+
+Why & how are the data collected?
+
+Do you know what information in every column means?
+
+# Clean 
+
+- Eliminate dupes?
+- Fix names?
+- Join data together? 
+
+WRITE A DIARY ENTRY FOR YOURSELF/SANITY
+
+# Questions
+
+## Addition: what's 2+2
+
+# Reflect
+
+- What's the most interesting takeaway?
+- Is your hypothesis true? 
+- Do your results make sense?
+- What can you safely say about the numbers? 
+
+- [ ]  Be wary of sharing your “findings” with people (other than your friendly data editor and data team peers) until you’re sure about your results or need some additional context to understand them further. When people hear that you have “findings” it can make them over excited and wanna rush.
+- [ ]  Hand calculate some of your results as a spot-checking method
+- [ ]  Double check your custom functions and equations (or ask someone else to check them!) Are they correct?
+- [ ]  Rerun your analysis. Do you get the same results?
+- [ ]  If possible, verify your findings IRL. Do they make sense? What could be accounting for your unexpected findings?
+- [ ]  Walk your editor through your process/code.
+- [ ]  If possible, go back to the agency/org that you got the data from and confirm your findings. This is sometimes not possible.
+
+# Findings
+
+- [ ]  Make numbers relatable. Bring them down to a unit that our readers will understand. If a company uses 5 million gallons of water, what is that relative to what a normal household uses?
+- [ ]  Don’t make readers do math. Don’t say: 10 people live in this neighborhood and 7 are black. Say 70% of the neighborhood is black.
+- [ ]  Reduce the number of decimals you use.
+- [ ]  Consider what is a good number and what is a bad number. If a city has a poverty rate of 12%, is that good or bad? You may need to turn to academics or other researchers for this info.
+- [ ]  Instead of using lots of numbers, tell the reader what the trend is. Let your charts, graphs and maps handle the detail data work.
+- [ ]  Don’t be afraid to paraphrase non-essential findings
+- [ ]  Use relatable language, even if it’s less exact. No one knows what a Census Tract is… say “area” or something like that.
+
+# Methodology
+
+Write what you just did
