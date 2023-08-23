@@ -26,10 +26,8 @@ What's your hypothesis?
 ```{r}
 library(tidyverse) # for data manipulation
 library(janitor) # for cleaning
-library(lubridate) # for working with dates
 library(readxl) # for working with Excel files
 library(skimr) # for initially understanding data -- > skim function
-library(DataExplorer) # for initially understanding data -- > create_report, introduce functions
 library(ggplot2) # for some basic visualizations
 ```
 
