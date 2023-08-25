@@ -28,6 +28,7 @@ library(tidyverse) # for data manipulation
 library(janitor) # for cleaning
 library(readxl) # for working with Excel files
 library(skimr) # for initially understanding data -- > skim function
+library(gtExtras) # for initially understanding data -- > gt_plt_summary() function
 library(ggplot2) # for some basic visualizations
 ```
 
@@ -39,15 +40,15 @@ Import all files here (ideally)
 
 # Understand Data
 
-```{r}
-summary()
-```
-
 Skim will return information in tables based on the type of data
 - for character columns, the max & min represent the character LENGTH (not an actual max/min)
 
 ```{r}
 skim()
+```
+I think this function does something very similar, but I'm experimenting with it
+```{r}
+gt_plt_summary()
 ```
 
 What are our "identifying columns?"
