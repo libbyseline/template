@@ -6,11 +6,11 @@ editor: visual
 
 # Notebook Goals
 
-What do you want to accomplish in this notebook? aka: What question are we answering?
+**What do you want to accomplish in this notebook? aka: What question are we answering?**
 
-How will it help you obtain project goals?
+**How will it help you obtain project goals?**
 
-What's your hypothesis?
+**What's your hypothesis?**
 
 # Before you begin
 
@@ -28,7 +28,6 @@ library(tidyverse) # for data manipulation
 library(janitor) # for cleaning
 library(readxl) # for working with Excel files
 library(skimr) # for initially understanding data -- > skim function
-library(gtExtras) # for initially understanding data -- > gt_plt_summary() function
 library(ggplot2) # for some basic visualizations
 ```
 
@@ -46,24 +45,20 @@ Skim will return information in tables based on the type of data
 ```{r}
 skim()
 ```
-I think this function does something very similar, but I'm experimenting with it
-```{r}
-gt_plt_summary()
-```
 
-What are our "identifying columns?"
-- Are those columns unique? Are they misspelled?
-- Do the column types for each column make sense?
+**What are our "identifying columns?"**
+- **Are those columns unique? Are they misspelled?**
+- **Do the column types for each column make sense?**
 
-Do we have null values? How do we want to handle null values?
+**Do we have null values? How do we want to handle null values?**
 
-Are there any immediate outliers off the bat? Max and minimum value for each column make sense?
+**Are there any immediate outliers off the bat? Max and minimum value for each column make sense?**
 
-What's the "universe" of the data? AKA what does each row represent? What geography does it cover?
+**What's the "universe" of the data? AKA what does each row represent? What geography does it cover?**
 
-Why & how are the data collected?
+**Why & how are the data collected?**
 
-Do you know what information in every column means?
+**Do you know what information in every column means?**
 
 # Clean 
 
@@ -79,10 +74,10 @@ WRITE A DIARY ENTRY FOR YOURSELF/SANITY
 
 # Reflect
 
-- What's the most interesting takeaway?
-- Is your hypothesis true? 
-- Do your results make sense?
-- What can you safely say about the numbers? 
+- **What's the most interesting takeaway?**
+- **Is your hypothesis true? **
+- **Do your results make sense?**
+- **What can you safely say about the numbers?**
 
 - [ ]  Be wary of sharing your “findings” with people (other than your friendly data editor and data team peers) until you’re sure about your results or need some additional context to understand them further. When people hear that you have “findings” it can make them over excited and wanna rush.
 - [ ]  Hand calculate some of your results as a spot-checking method
