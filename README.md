@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Journalist's Guide to Analyzing Data in R
 
 ## Credit
