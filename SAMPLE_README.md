@@ -13,12 +13,15 @@ Pick a Tag
 # Data Source
 How can you get the data?
 
-## Regrets
-
-# Files
-What are they? 
+# Regrets
+If you were to re-do the project, would you change anything?
 
 # How to Run
+
+## Tools
+
+## Files
+What are they? 
 
 # Formal Methodology
 
